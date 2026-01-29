@@ -1,5 +1,5 @@
 from pyrogram import Client
-from py_tgcalls import PyTgCalls
+from pytgcalls import PyTgCalls
 from config import API_ID, API_HASH, BOT_TOKEN, STRING_SESSION
 from handlers import start, play, admin
 from call.music import app as music_app
